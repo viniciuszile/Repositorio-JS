@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador De Cpf</title>
+    
+    <style>
+        *{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            align-items: center;
+            margin-top: 10%;
+        }
+        .texto{
+
+            text-overflow: ellipsis;
+            outline-color: rgb(250, 250, 250);
+            color: red;
+
+        }
+
+        #resultado{
+            color: red;
+        }
+
+        #teste{
+            color: red;
+        }
+
+        
+        </style>
+</head>
+
+<body>
+
+    <h1 class="texto">Validador De CPF</h1>
+
+    <label> Insira o cpf : <input id ="cpf" type="text" placeholder="123.456.789.00"> </label>
+    <br>
+    <button id = "botao"onclick="cpfcheck()">Verificar</button>
+
+    <output id = "resultado"></output>
+    <br>
+    <output id = "teste"></output>
+
+    <script src="script.js"></script>
+</body>
+</html>

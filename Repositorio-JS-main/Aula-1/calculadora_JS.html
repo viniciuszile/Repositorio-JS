@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    
+    <SCript>
+
+    // calculadora com "IF"
+    
+    //     var num1 
+    //     var num2 
+    //     var resultado
+    //     var operaçao
+
+    
+    //    num1 = prompts("Informe o primeiro numero :")
+    //    num2 = prompt("Informe o segundo numero :" )
+    //    operaçao = prompt("Informe a operaçao (+ - x /) :")
+
+    //    num1 = parseFloat(num1)
+    //    num2 = parseFloat(num2)
+
+    //    if(operaçao == "+"){
+    //        resultado = num1 + num2
+    //    }
+
+    //    else if(operaçao == "-"){
+    //        resultado = num1 - num2
+           
+    //    }
+
+    //    else if(operaçao == "x" || operaçao == "X"){
+    //        resultado = num1 * num2
+
+    //    }
+
+    //    else if(operaçao == "/"){
+    //        resultado = num1 / num2
+    //    }
+
+    //    else {
+    //        alert("Nenhuma opereçao foi selecionada!")
+    //    }
+
+    //    alert(resultado)
+
+        // Calculadora com swith 
+        var num1 
+        var num2 
+        var resultado
+        var operaçao
+
+       num1 = prompt("Informe o primeiro numero :")
+       num2 = prompt("Informe o segundo numero :" )
+       operaçao = prompt("Informe a operaçao (+ - x /) :")
+
+       num1 = parseFloat(num1)
+       num2 = parseFloat(num2)
+
+    
+    
+    switch(operaçao){
+        case "+":
+            resultado = num1 + num2
+            console.log(resultado)
+            break;
+        case "-":
+            resultado = num1 - num2
+            console.log(resultado)
+            break;
+        case "x":
+            resultado = num1 * num2
+            console.log(resultado)
+            break;
+        case "X":
+           resultado = num1 + num2
+            console.log(resultado)
+            break;
+        case "/":
+            resultado = num1 / num2
+            console.log(resultado)
+            break;
+        default:
+            console.log("nenhuma operaçao selecionada :")
+    
+    }
+
+    alert(resultado)
+    
+    
+    
+    </SCript>
+
+</body>
+</html>
