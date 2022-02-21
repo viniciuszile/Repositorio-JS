@@ -1,2 +1,5 @@
-# cadastro-notas-js
-Projeto de cadastro de notas de alunos voltado para aprendizado em javascript
+# Timer-JS
+
+Projeto de um timer decresente para aprendizado em javascript
+
+link : https://zile-repositorios.github.io/timer-js/index
