@@ -1,0 +1,42 @@
+<html>
+    <head>
+    <title>teste</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        
+        <div class="container">
+         <h1 class="h1">Consultar CEP</h1>   
+    <!-- Inicio do formulario -->
+      <form method="get" >
+        <label>Cep :
+        <input name="cep" type="text" id="cep" value="" size="30" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+               <br>
+        <label>Rua :
+        <input name="rua" type="text" id="rua" size="30" /></label><br />
+        <br>
+        <label>Bairro :
+        <input name="bairro" type="text" id="bairro" size="30" /></label><br />
+        <br>
+        <label>Cidade :
+        <input name="cidade" type="text" id="cidade" size="30" /></label><br />
+        <br>
+        <label>Estado :
+        <input name="uf" type="text" id="uf" size="30" /></label><br />
+        <br>
+        <label>Numero :
+        <input type="text" id="numero" size="30"></label><br>
+        <br>
+    
+        
+      </form>
+    </div>
+    </body>
+
+    </html>
